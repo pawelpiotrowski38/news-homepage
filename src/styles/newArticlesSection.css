@@ -1,0 +1,32 @@
+.new-articles-section {
+    margin-top: 4rem;
+    padding: 1.25rem 1.3125rem 1.5rem 1.3125rem;
+    background-color: var(--very-dark-blue);
+}
+
+.new-articles-section__title {
+    margin-bottom: 1.75rem;
+    color: var(--soft-orange);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.new-articles-section__list-item-title {
+    margin-bottom: 0.5rem;
+    color: var(--off-white);
+    font-size: 1.25rem;
+}
+
+.new-articles-section__list-item-desc {
+    color: var(--grayish-blue);
+    line-height: 1.72;
+    letter-spacing: 0.04px;
+}
+
+.new-articles-section__list-item-line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 1.8125rem 0;
+    background-color: var(--grayish-blue);
+}
