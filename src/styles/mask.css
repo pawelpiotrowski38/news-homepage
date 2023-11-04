@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 1872px;
     background-color: var(--mask);
     opacity: 0;
     visibility: hidden;
