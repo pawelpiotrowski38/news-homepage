@@ -11,15 +11,18 @@
 
 .hero-section__description {
     margin-bottom: 1.5rem;
+    color: var(--dark-grayish-blue);
     line-height: 1.74;
     letter-spacing: 0.02px;
 }
 
 .hero-section__read-more-button {
-    padding: 0.9375rem 0;
-    width: 11.5rem;
+    padding: 1rem 0 0.875rem 0;
+    width: 11.5625rem;
     background-color: var(--soft-red);
     color: var(--off-white);
     letter-spacing: 4.5px;
     font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
 }
