@@ -1,0 +1,25 @@
+.hero-section__image-container {
+    margin-bottom: 1.5rem;
+}
+
+.hero-section__title {
+    margin-bottom: 0.9375rem;
+    font-size: 2.5rem;
+    line-height: 1;
+    letter-spacing: 0.3px;
+}
+
+.hero-section__description {
+    margin-bottom: 1.5rem;
+    line-height: 1.74;
+    letter-spacing: 0.02px;
+}
+
+.hero-section__read-more-button {
+    padding: 0.9375rem 0;
+    width: 11.5rem;
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    letter-spacing: 4.5px;
+    font-size: 0.875rem;
+}
