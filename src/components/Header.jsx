@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import MenuButton from "./MenuButton";
+import Mask from "./Mask";
 import '../styles/header.css';
 
 export default function Header() {
@@ -20,6 +21,9 @@ export default function Header() {
             />
             <MenuButton 
                 onToggleNavigation={handleToggleNavigation}
+            />
+            <Mask
+                isState={isNavigationOpen}
             />
         </header>
     )
