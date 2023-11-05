@@ -1,0 +1,39 @@
+.popular-articles-section {
+    margin-top: 4rem;
+}
+
+.popular-articles-section__list >:not(:last-child) {
+    margin-bottom: 1.9375rem;
+}
+
+.popular-articles-section__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.popular-articles-section__image-container {
+    margin-right: 1.5rem;
+}
+
+.popular-articles-section__image {
+    max-width: 6.25rem;
+}
+
+.popular-articles-section__list-item-number {
+    margin-bottom: 0.5rem;
+    margin-left: 0.0625rem;
+    color: var(--grayish-blue);
+    font-size: 1.9375rem;
+    font-weight: 700;
+}
+
+.popular-articles-section__list-item-title {
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.275px;
+}
+
+.popular-articles-section__list-item-desc {
+    line-height: 1.7;
+}
