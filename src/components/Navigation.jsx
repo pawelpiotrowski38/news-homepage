@@ -1,9 +1,26 @@
 import NavigationItem from "./NavigationItem";
 import '../styles/navigation.css';
+import { useEffect, useRef } from "react";
 
 export default function Navigation({ isNavigationOpen, onSetIsNavigationOpen }) {
+    const navRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (navRef && navRef.current && !navRef.current.contains(event.target)) {
+                onSetIsNavigationOpen(false);
+            }
+        };
+    
+        document.addEventListener("mousedown", handleClickOutside);
+    
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [onSetIsNavigationOpen]);
+
     return (
-        <nav className={`navigation ${isNavigationOpen ? 'navigation--visible' : ''}`}>
+        <nav ref={navRef} className={`navigation ${isNavigationOpen ? 'navigation--visible' : ''}`}>
             <div className="navigation__close-button-container">
                 <button
                     className="navigation__close-button"
