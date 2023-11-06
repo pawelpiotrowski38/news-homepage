@@ -1,5 +1,6 @@
 .popular-articles-section {
     margin-top: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .popular-articles-section__list >:not(:last-child) {
