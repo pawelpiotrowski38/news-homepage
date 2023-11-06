@@ -33,6 +33,12 @@
 .popular-articles-section__list-item-title {
     margin-bottom: 0.5rem;
     letter-spacing: 0.275px;
+    transition: all 0.25s ease-in-out;
+}
+
+.popular-articles-section__list-item-title:hover {
+    color: var(--soft-red);
+    cursor: pointer;
 }
 
 .popular-articles-section__list-item-desc {

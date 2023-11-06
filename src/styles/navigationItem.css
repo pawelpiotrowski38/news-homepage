@@ -7,5 +7,11 @@
         color: var(--dark-grayish-blue);
         font-size: 1rem;
         letter-spacing: 0.01px;
+        transition: all 0.25s ease-in-out;
+    }
+
+    .navigation-item:hover {
+        color: var(--soft-red);
+        cursor: pointer;
     }
 }
