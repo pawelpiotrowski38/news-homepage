@@ -1,16 +1,17 @@
-.navigation-item {
+.navigation-item__link {
+    color: var(--very-dark-blue);
     font-size: 1.125rem;
 }
 
 @media screen and (min-width: 48em) {
-    .navigation-item {
+    .navigation-item__link {
         color: var(--dark-grayish-blue);
         font-size: 1rem;
         letter-spacing: 0.01px;
         transition: all 0.25s ease-in-out;
     }
 
-    .navigation-item:hover {
+    .navigation-item__link:hover {
         color: var(--soft-red);
         cursor: pointer;
     }
