@@ -1,4 +1,4 @@
-import '../styles/NewArticlesSection.css';
+import '../styles/newArticlesSection.css';
 
 export default function NewArticlesSection({ articles }) {
     return (
