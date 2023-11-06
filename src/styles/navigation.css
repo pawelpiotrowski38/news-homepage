@@ -43,3 +43,36 @@
 .navigation__list >:not(:last-child) {
     margin-bottom: 1.5rem;
 }
+
+@media screen and (min-width: 90em) {
+    .navigation {
+        position: static;
+        visibility: visible;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        flex-grow: 1;
+        height: auto;
+        width: auto;
+        margin-left: 3.875rem;
+        padding: 0;
+        min-height: auto;
+        letter-spacing: -0.5px;
+    }
+
+    .navigation__list {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.0625rem;
+        margin-right: 0.125rem;
+    }
+
+    .navigation__list >:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 2.375rem;
+    }
+
+    .navigation__close-button-container {
+        display: none;
+    }
+}

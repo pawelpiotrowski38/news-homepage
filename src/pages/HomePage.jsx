@@ -47,14 +47,16 @@ const popularArticles = [
 
 export default function HomePage() {
     return (
-        <div className='home-page'>
-            <HeroSection />
-            <NewArticlesSection
-                articles={newArticles}
-            />
+        <main className='home-page'>
+            <div className='home-page__main'>
+                <HeroSection />
+                <NewArticlesSection
+                    articles={newArticles}
+                />
+            </div>
             <PopularArticlesSection
                 articles={popularArticles}
             />
-        </div>
+        </main>
     )
 }

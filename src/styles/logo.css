@@ -5,3 +5,9 @@
 .logo__image {
     width: 2.875rem;
 }
+
+@media screen and (min-width: 90em) {
+    .logo__image {
+        width: 4.125rem;
+    }
+}

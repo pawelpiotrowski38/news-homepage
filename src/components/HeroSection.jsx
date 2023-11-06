@@ -4,7 +4,10 @@ export default function HeroSection() {
     return (
         <section className="hero-section">
             <div className="hero-section__image-container">
-                <img className="hero-section__image" src="./images/image-web-3-mobile.jpg" alt="colorful shapes" />
+                <picture>
+                    <source srcSet="./images/image-web-3-desktop.jpg" media="(min-width: 90em)" />
+                    <img className="hero-section__image" src="./images/image-web-3-mobile.jpg"  alt="colorful shapes" />
+                </picture>
             </div>
             <div className="hero-section__text-container">
                 <h1 className="hero-section__title">

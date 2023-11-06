@@ -3,5 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1440px;
     padding: 1.75rem 1rem;
+}
+
+@media screen and (min-width: 90em) {
+    .header {
+        padding: 5.5rem 10.25rem;
+        padding-bottom: 0;
+    }
 }

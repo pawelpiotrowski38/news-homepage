@@ -16,3 +16,9 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media screen and (min-width: 90em) {
+    .mask {
+        min-height: 1024px;
+    }
+}
