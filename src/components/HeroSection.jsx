@@ -5,7 +5,7 @@ export default function HeroSection() {
         <section className="hero-section">
             <div className="hero-section__image-container">
                 <picture>
-                    <source srcSet="./images/image-web-3-desktop.jpg" media="(min-width: 90em)" />
+                    <source srcSet="./images/image-web-3-desktop.jpg" media="(min-width: 42.875em)" />
                     <img className="hero-section__image" src="./images/image-web-3-mobile.jpg"  alt="colorful shapes" />
                 </picture>
             </div>

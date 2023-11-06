@@ -6,7 +6,13 @@
     width: 2.875rem;
 }
 
-@media screen and (min-width: 90em) {
+@media screen and (min-width: 48em) {
+    .logo__image {
+        width: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 75em) {
     .logo__image {
         width: 4.125rem;
     }

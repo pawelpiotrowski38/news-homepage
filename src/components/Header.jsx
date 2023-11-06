@@ -10,7 +10,7 @@ export default function Header() {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth >= 60 * 16) {
+            if (window.innerWidth >= 48 * 16) {
                 setIsNavigationOpen(false);
             }
         };

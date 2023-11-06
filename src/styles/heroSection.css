@@ -31,6 +31,24 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 42.875em) {
+    .hero-section__text-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-section__title {
+        margin: 0.25rem 1rem 0 0;
+        font-size: 2.875rem;
+    }
+}
+
+@media screen and (min-width: 80em) {
+    .hero-section {
+        margin-right: 1.5rem;
+    }
+}
+
 @media screen and (min-width: 90em) {
     .hero-section {
         margin-right: 1.875rem;
@@ -44,14 +62,9 @@
         max-width: 45.625rem;
     }
 
-    .hero-section__text-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .hero-section__title {
         min-width: 20rem;
-        margin: 0.25rem 3.75rem 0 0;
+        margin-right: 3.75rem;
         font-size: 3.5rem;
         letter-spacing: 0.25px;
     }

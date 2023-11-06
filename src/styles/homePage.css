@@ -4,13 +4,29 @@
     padding: 0.25rem 1rem;
 }
 
+@media screen and (min-width: 48em) {
+    .home-page {
+        margin-top: 2.25rem;
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    .home-page {
+        margin-top: 2.75rem;
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width: 80em) {
+    .home-page__main {
+        display: flex;
+    }
+}
+
 @media screen and (min-width: 90em) {
     .home-page {
         margin-top: 3.4375rem;
         padding: 0 10.3125rem;
-    }
-
-    .home-page__main {
-        display: flex;
     }
 }
