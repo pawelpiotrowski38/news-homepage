@@ -27,6 +27,7 @@ html {
 }
 
 body {
+    min-height: 1024px;
     background-color: var(--off-white);
     color: var(--very-dark-blue);
     -webkit-font-smoothing: antialiased;
